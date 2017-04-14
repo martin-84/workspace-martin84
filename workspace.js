@@ -2247,10 +2247,9 @@ cpdefine("inline:com-chilipeppr-workspace-martin84", ["chilipeppr_ready"], funct
 
            
 
-            // Widget cam 
             chilipeppr.load(
               "#com-chilipeppr-widget-cam-instance",
-              "http://raw.githubusercontent.com/chilipeppr/widget-cam/master/auto-generated-widget.html",
+              "http://raw.githubusercontent.com/xpix/widget-cam/master/auto-generated-widget.html",
               function() {
                 // Callback after widget loaded into #myDivWidgetCam
                 // Now use require.js to get reference to instantiated widget
@@ -2264,7 +2263,6 @@ cpdefine("inline:com-chilipeppr-workspace-martin84", ["chilipeppr_ready"], funct
                 );
               }
             );
-
         },
 
 
