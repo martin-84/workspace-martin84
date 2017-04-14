@@ -1,4 +1,4 @@
-# com-chilipeppr-workspace-grbl
+# com-chilipeppr-workspace-martin84
 A ChiliPeppr Workspace grbl.
 
 ![alt text](screenshot.png "Screenshot")
@@ -11,7 +11,7 @@ not conflict with other ChiliPeppr objects.
 
 | Item                  | Value           |
 | -------------         | ------------- | 
-| ID                    | com-chilipeppr-workspace-grbl |
+| ID                    | com-chilipeppr-workspace-martin84 |
 | Name                  | Workspace / grbl |
 | Description           | A ChiliPeppr Workspace grbl. |
 | chilipeppr.load() URL | http://raw.githubusercontent.com/https://master/auto-generated-workspace.html |
@@ -39,11 +39,11 @@ chilipeppr.load(
     // Callback after workspace loaded into #pnlWorkspace
     // Now use require.js to get reference to instantiated workspace
     cprequire(
-      ["inline:com-chilipeppr-workspace-grbl"], // the id you gave your workspace
-      function(myWorkspaceGrbl) {
+      ["inline:com-chilipeppr-workspace-martin84"], // the id you gave your workspace
+      function(myWorkspaceMartin84) {
         // Callback that is passed reference to the newly loaded workspace
-        console.log("Workspace / grbl just got loaded.", myWorkspaceGrbl);
-        myWorkspaceGrbl.init();
+        console.log("Workspace / grbl just got loaded.", myWorkspaceMartin84);
+        myWorkspaceMartin84.init();
       }
     );
   }
@@ -135,7 +135,7 @@ The table below shows, in order, the methods and properties inside the workspace
           </tr>
       </thead>
       <tbody>
-      <tr valign="top"><td>id</td><td>string</td><td>"com-chilipeppr-workspace-grbl"</td></tr><tr valign="top"><td>name</td><td>string</td><td>"Workspace / grbl"</td></tr><tr valign="top"><td>desc</td><td>string</td><td>"A ChiliPeppr Workspace grbl."</td></tr><tr valign="top"><td>url</td><td>string</td><td>"(auto fill by runme.js)"</td></tr><tr valign="top"><td>fiddleurl</td><td>string</td><td>"(auto fill by runme.js)"</td></tr><tr valign="top"><td>githuburl</td><td>string</td><td>"(auto fill by runme.js)"</td></tr><tr valign="top"><td>testurl</td><td>string</td><td>"(auto fill by runme.js)"</td></tr><tr valign="top"><td>widgetConsole</td><td>object</td><td></td></tr><tr valign="top"><td>init</td><td>function</td><td>function () </td></tr><tr valign="top"><td>getBillboard</td><td>function</td><td>function () </td></tr><tr valign="top"><td>addBillboardToWorkspaceMenu</td><td>function</td><td>function () </td></tr><tr valign="top"><td>setupResize</td><td>function</td><td>function () </td></tr><tr valign="top"><td>onResize</td><td>function</td><td>function () </td></tr><tr valign="top"><td>loadTemplateWidget</td><td>function</td><td>function (callback) </td></tr><tr valign="top"><td>loadSpjsWidget</td><td>function</td><td>function (callback) </td></tr><tr valign="top"><td>loadConsoleWidget</td><td>function</td><td>function (callback) </td></tr><tr valign="top"><td>loadWorkspaceMenu</td><td>function</td><td>function (callback) </td></tr><tr valign="top"><td>loadWidgets</td><td>function</td><td>function (callback) </td></tr>
+      <tr valign="top"><td>id</td><td>string</td><td>"com-chilipeppr-workspace-martin84"</td></tr><tr valign="top"><td>name</td><td>string</td><td>"Workspace / grbl"</td></tr><tr valign="top"><td>desc</td><td>string</td><td>"A ChiliPeppr Workspace grbl."</td></tr><tr valign="top"><td>url</td><td>string</td><td>"(auto fill by runme.js)"</td></tr><tr valign="top"><td>fiddleurl</td><td>string</td><td>"(auto fill by runme.js)"</td></tr><tr valign="top"><td>githuburl</td><td>string</td><td>"(auto fill by runme.js)"</td></tr><tr valign="top"><td>testurl</td><td>string</td><td>"(auto fill by runme.js)"</td></tr><tr valign="top"><td>widgetConsole</td><td>object</td><td></td></tr><tr valign="top"><td>init</td><td>function</td><td>function () </td></tr><tr valign="top"><td>getBillboard</td><td>function</td><td>function () </td></tr><tr valign="top"><td>addBillboardToWorkspaceMenu</td><td>function</td><td>function () </td></tr><tr valign="top"><td>setupResize</td><td>function</td><td>function () </td></tr><tr valign="top"><td>onResize</td><td>function</td><td>function () </td></tr><tr valign="top"><td>loadTemplateWidget</td><td>function</td><td>function (callback) </td></tr><tr valign="top"><td>loadSpjsWidget</td><td>function</td><td>function (callback) </td></tr><tr valign="top"><td>loadConsoleWidget</td><td>function</td><td>function (callback) </td></tr><tr valign="top"><td>loadWorkspaceMenu</td><td>function</td><td>function (callback) </td></tr><tr valign="top"><td>loadWidgets</td><td>function</td><td>function (callback) </td></tr>
       </tbody>
   </table>
 
