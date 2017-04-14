@@ -74,6 +74,8 @@
 
 /* ab hier neu */
 
+.resizable { width: 150px; height: 150px; padding: 0.5em; }
+
 .zipwhip-button {
     line-height:0px;
     padding: 1px 2px;
