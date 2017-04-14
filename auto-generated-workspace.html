@@ -2361,6 +2361,23 @@ cpdefine("inline:com-chilipeppr-workspace-martin84", ["chilipeppr_ready"], funct
                     });
                 });
 
+            // Node-RED dashboard
+            chilipeppr.load(
+              "#com-chilipeppr-widget-node-red-dashboard",
+              "http://raw.githubusercontent.com/martin-84/widget-nde-red-dashbrd/master/auto-generated-widget.html",
+              function() {
+                // Callback after widget loaded into #myDivNdeRedDashbrd
+                // Now use require.js to get reference to instantiated widget
+                cprequire(
+                  ["inline:com-chilipeppr-nde-red-dashbrd"], // the id you gave your widget
+                  function(myObjNdeRedDashbrd) {
+                    // Callback that is passed reference to the newly loaded widget
+                    console.log("Widget / NR Dashboard just got loaded.", myObjNdeRedDashbrd);
+                    myObjNdeRedDashbrd.init();
+                  }
+                );
+              }
+            );
 
             // Serial Port Log Window
             // http://jsfiddle.net/chilipeppr/rczajbx0/
@@ -2470,23 +2487,7 @@ cpdefine("inline:com-chilipeppr-workspace-martin84", ["chilipeppr_ready"], funct
                         });
                 });
 
-            // Node-RED dashboard
-            chilipeppr.load(
-              "#com-chilipeppr-widget-node-red-dashboard",
-              "http://raw.githubusercontent.com/martin-84/widget-nde-red-dashbrd/master/auto-generated-widget.html",
-              function() {
-                // Callback after widget loaded into #myDivNdeRedDashbrd
-                // Now use require.js to get reference to instantiated widget
-                cprequire(
-                  ["inline:com-chilipeppr-nde-red-dashbrd"], // the id you gave your widget
-                  function(myObjNdeRedDashbrd) {
-                    // Callback that is passed reference to the newly loaded widget
-                    console.log("Widget / NR Dashboard just got loaded.", myObjNdeRedDashbrd);
-                    myObjNdeRedDashbrd.init();
-                  }
-                );
-              }
-            );
+           
 
             // Widget cam 
             chilipeppr.load(
