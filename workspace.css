@@ -74,8 +74,16 @@
 
 /* ab hier neu */
 
-.resizable { /*width: 250px; padding: 0.5em;*/ }
+.ui-resizable-helper {
+    border: 1px dotted #999;
+}
 
+.resizable {
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-left: 5px;
+}
 .zipwhip-button {
     line-height:0px;
     padding: 1px 2px;

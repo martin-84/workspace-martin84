@@ -92,8 +92,16 @@
 
 /* ab hier neu */
 
-.resizable { /*width: 250px; padding: 0.5em;*/ }
+.ui-resizable-helper {
+    border: 1px dotted #999;
+}
 
+.resizable {
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-left: 5px;
+}
 .zipwhip-button {
     line-height:0px;
     padding: 1px 2px;
@@ -2381,6 +2389,11 @@ cpdefine("inline:com-chilipeppr-workspace-martin84", ["chilipeppr_ready"], funct
               }
             );
 
+$('.resizable').resizable({
+    helper: "ui-resizable-helper",
+    grid: [10, 10]
+});
+
             // Serial Port Log Window
             // http://jsfiddle.net/chilipeppr/rczajbx0/
             chilipeppr.load("#com-chilipeppr-serialport-log",
@@ -2743,7 +2756,7 @@ cpdefine("inline:com-chilipeppr-workspace-martin84", ["chilipeppr_ready"], funct
 
                     <!-- Gcode List -->
                     <div id="com-chilipeppr-gcode-list" class="zhigh">Load Gcode List Here</div>
-                    <div id="com-chilipeppr-widget-node-red-dashboard" class="zhigh resizable">Node-Red Dashboard goes here</div>
+                    <div id="com-chilipeppr-widget-node-red-dashboard" class="zhigh ui-resizable resizable">Node-Red Dashboard goes here</div>
                     <!-- Serial In/Out Text Log-->
                     <div id="com-chilipeppr-serialport-log" class="zhigh">Load Serial Port Log Here</div>
                 </div>
